@@ -1,0 +1,7 @@
+INCLUDE_DIRECTORIES(${CMAKE_SOURCE_DIR}/src)
+
+LINK_DIRECTORIES()
+
+ADD_EXECUTABLE(metro main.cpp StationV1.cpp StationV1.hpp)
+
+TARGET_LINK_LIBRARIES(metro)
